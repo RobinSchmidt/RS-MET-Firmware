@@ -55,7 +55,7 @@ Drum Synthesizer
 - Tweakable parameters should be: pitch, length, decay. The idea is that after "length" seconds, we
   enter a decay envelope. Maybe let its shape be tweakable, too.
   
- -Maybe also allow algorithmic drum synthesis, including my "SweepKicker" algorithm. HiHats could be
+- Maybe also allow algorithmic drum synthesis, including my "SweepKicker" algorithm. HiHats could be
   based on (highpassed and enveloped) white noise. Maybe the color of the noise could be modified
   with a tilt filter. Maybe each drum should have 3 band parametric EQ. Or  maybe have 4 bands such 
   that we can route the 4 gain parameters to the 4 knobs. But we could also route freq and gain 

@@ -1,9 +1,13 @@
 In this text file, I collect links to resources for M-VAVE products such as the FM-1, SMK-37, etc.
 
-https://www.youtube.com/watch?v=2puO1fV6Wi4   FM-1 Tier List
 
+FM-1 Tier List
+https://www.youtube.com/watch?v=2puO1fV6Wi4
+-AudioPilz ranks different popular community firmwares for the FM-1
 
-M-VAVE FM-1 Resources:
+----------------------------------------------------------------------------------------------------
+FM-1 Resources
+
 https://github.com/m-vave/fm1_open
 https://github.com/sbegueria/fm1-dev-wiki
 https://github.com/aroum/fm1-custom-fw
@@ -12,7 +16,9 @@ https://github.com/hugelton/Felucca
 https://github.com/zvenson/dinghy
 https://github.com/Quixotic7/MvaveFM1Unbricker
 
-SMK-37:
+----------------------------------------------------------------------------------------------------
+SMK-37 Resources
+
 https://github.com/m-vave/smk37_open
 https://github.com/genkigenki/fm1-to-smk37
 https://github.com/genkigenki/fm1-to-smk37/blob/main/docs/07-develop-for-both.md

@@ -5,4 +5,4 @@ This repo is just a stub at the moment. I want to use it to create firmware for 
 
 ## Licensing
 
-For the time being, I picked the GPL 3.0 license because I'm planning to base my own firmwares for the M-Vave FM-1 on Felucca which uses GPL 3.0 and so i basically inherit that license as well due to the virality of the GPL.
+For the time being, I picked the GPL 3.0 license because I'm planning to base my own firmwares for the M-Vave FM-1 on Felucca which uses GPL 3.0 and so I basically inherit that license as well due to the virality of the GPL.

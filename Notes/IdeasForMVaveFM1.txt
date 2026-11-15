@@ -1,0 +1,65 @@
+In this file, I collect my ideas for firmwares that I may want to create from the M-VAVE FM-1.
+
+----------------------------------------------------------------------------------------------------
+Virtual Analog Synthesizer
+
+- Should have a supersaw and maybe also also other "super" waveforms (supersquare, superpulse, 
+  etc.). Maybe Osc1 should just offer a "Unison" parameter that goes from 1 to 16 just like Serum 
+  does.
+
+- Use Felucca as starting point.
+
+- Add supersaw. 
+
+  - Maybe have different variants of the algorithm: PolyBlep1, PolyBlep2, PitchDither, MipMap, etc..
+    Although, MiMap might be difficult to implement if we want to do it FFT based - unless we 
+    hardcode the whole mip map into the firmware. But that seems an impractical idea given the small
+    RAM on the device.
+  
+  - Maybe have an oversampling parameter. Maybe that should also affect the filter (but not the 
+    envelopes and LFOs)
+
+- Maybe add ladder filter from my main repo. It needs to be suitably adapted to fixed point 
+  arithmetic.
+
+----------------------------------------------------------------------------------------------------
+Dual 303
+
+- Two 303 emulations based on my Open303 code.
+ 
+- The 4 knobs should have the following assignments - which one it is can be selected by the user:
+  (1)  1: Cutoff_1, 2: Resonance_1, 3: Cutoff_2, 4: Resonance_2
+  (2)  1: Cutoff_1, 2: Resonance_1, 3: EnvMod_1, 4: Accent_1
+  (3)  1: Cutoff_2, 2: Resonance_2, 3: EnvMod_2, 4: Accent_2
+  ...
+  
+- Maybe the mip-mapped oscillator code should be replaced by PolyBlep oscillators.
+
+- Maybe the whole thing should run with an oversampling factor of 2.
+
+- Maybe we could have more than two 303s? Three? Four? Or maybe start with just one but make it a 
+  bit more feature rich. We may include a distortion and stereo delay. Maybe that's already enough
+  for this small unit's CPU and RAM. Maybe make a firmware with one "big" 303 and another one with 
+  two "small" 303s (i.e. without effect unit and maybe lesser quality of the DSP algorithms).
+ 
+---------------------------------------------------------------------------------------------------- 
+Drum Synthesizer
+
+- Let's users load sample based drumkits (if this is possible)
+ 
+- Be stingy with the memory. Put the samples as 16 bit mono samples into memory and (maybe) convert
+  to the standard 32 bit int on the fly. Maybe also allow using 8 bits. Maybe let the .wav file 
+  decide - just take its bit depth. But maybe there are no wav files on the user side and the 
+  samples must be baked/hardcoded into the firmware?
+  
+- Tweakable parameters should be: pitch, length, decay. The idea is that after "length" seconds, we
+  enter a decay envelope. Maybe let its shape be tweakable, too.
+  
+ -Maybe also allow algorithmic drum synthesis, including my "SweepKicker" algorithm. HiHats could be
+  based on (highpassed and enveloped) white noise. Maybe the color of the noise could be modified
+  with a tilt filter. Maybe each drum should have 3 band parametric EQ. Or  maybe have 4 bands such 
+  that we can route the 4 gain parameters to the 4 knobs. But we could also route freq and gain 
+  params of 2 bands to the knobs.
+  
+- Have a waveshaper in the signal path. Or maybe 2. One before and one after the EQ.
+ 

@@ -17,10 +17,16 @@ https://github.com/sbegueria/fm1-dev-wiki
 https://github.com/aroum/fm1-custom-fw
 -...
 
+Felucca
 https://github.com/hugelton
 https://github.com/hugelton/Felucca
 -Felucca is a popular firmware that features virtual analog synthesis. (verify!)
 -Hugelton's other repos may also be of interest -> figure out what else is there.
+
+SLOOP
+https://github.com/isod89/sloop-fm1
+-4-track groovebox with 3 synths and a drum machine. 
+-12 synthesis engines, 153 sounds, 37 drum kits, your own samples
 
 https://github.com/zvenson/dinghy
 -Dinghy is a minimalistic starting point for developing one's own firmware. (verify!)

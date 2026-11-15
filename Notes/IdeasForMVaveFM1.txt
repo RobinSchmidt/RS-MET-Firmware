@@ -5,7 +5,7 @@ Virtual Analog Synthesizer
 
 - Should have a supersaw and maybe also also other "super" waveforms (supersquare, superpulse, 
   etc.). Maybe Osc1 should just offer a "Unison" parameter that goes from 1 to 16 just like Serum 
-  does.
+  does. 
 
 - Use Felucca as starting point.
 
@@ -21,6 +21,9 @@ Virtual Analog Synthesizer
 
 - Maybe add ladder filter from my main repo. It needs to be suitably adapted to fixed point 
   arithmetic.
+
+- Maybe an interesting feature for a supersaw could be to allow each saw to be noise-modulated with 
+  rather extreme depth such that we may create THX-like sounds.
 
 ----------------------------------------------------------------------------------------------------
 Dual 303
@@ -45,7 +48,8 @@ Dual 303
 ---------------------------------------------------------------------------------------------------- 
 Drum Synthesizer
 
-- Let's users load sample based drumkits (if this is possible)
+- Let's users load sample based drumkits (if this is possible - yes, I think, it can load up to 4
+  samples. Check out sloop https://github.com/isod89/sloop-fm1 I think, it uses that feature) 
  
 - Be stingy with the memory. Put the samples as 16 bit mono samples into memory and (maybe) convert
   to the standard 32 bit int on the fly. Maybe also allow using 8 bits. Maybe let the .wav file 

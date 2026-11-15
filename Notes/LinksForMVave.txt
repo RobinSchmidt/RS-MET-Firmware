@@ -9,12 +9,25 @@ https://www.youtube.com/watch?v=2puO1fV6Wi4
 FM-1 Resources
 
 https://github.com/m-vave/fm1_open
+-The landing page for getting started with custom firmware development for the FM-1.
+
 https://github.com/sbegueria/fm1-dev-wiki
+-...
+
 https://github.com/aroum/fm1-custom-fw
+-...
+
 https://github.com/hugelton
 https://github.com/hugelton/Felucca
+-Felucca is a popular firmware that features virtual analog synthesis. (verify!)
+-Hugelton's other repos may also be of interest -> figure out what else is there.
+
 https://github.com/zvenson/dinghy
+-Dinghy is a minimalistic starting point for developing one's own firmware. (verify!)
+
 https://github.com/Quixotic7/MvaveFM1Unbricker
+-A recovery tool for the hardware unit to set it back into its original factory state if something 
+ has gone terribly wrong with uploading the custom firmware which "bricked" the device. (verify!)
 
 ----------------------------------------------------------------------------------------------------
 SMK-37 Resources

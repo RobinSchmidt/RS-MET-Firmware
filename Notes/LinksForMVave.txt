@@ -8,12 +8,25 @@ https://www.youtube.com/watch?v=2puO1fV6Wi4
 ----------------------------------------------------------------------------------------------------
 FM-1 Resources
 
+The Firmware Hub
+https://thefirmwarehub.com/
+-Website with firmwares for the FM-1
+ https://thefirmwarehub.com/kb/               Instructions for publishing a firmware
+ https://thefirmwarehub.com/tools/rescue/     How to recover from bricked
+ https://thefirmwarehub.com/tools/            Dev Tools such as emulators etc.
+
 https://github.com/m-vave/fm1_open
 -The landing page for getting started with custom firmware development for the FM-1.
 
 https://open.m-vave.com/fm1-workbench
 -A web-based emulation of the device that runs in the browser
 -Q: Can it be used to test custom firmware?
+
+FM-1 emulator
+https://github.com/joakimeriksson/fm1-emu
+-FM-1 (and SMK-37) emulator to runs firmwares in the browser and natively
+ https://joakimeriksson.github.io/fm1-emu/?fw=felucca&mhz=100  Run it online
+ 
 
 https://github.com/sbegueria/fm1-dev-wiki
 -Lots of .md files with relevant content. Especially important seem to be these:

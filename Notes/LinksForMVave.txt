@@ -11,11 +11,20 @@ FM-1 Resources
 https://github.com/m-vave/fm1_open
 -The landing page for getting started with custom firmware development for the FM-1.
 
+https://open.m-vave.com/fm1-workbench
+-A web-based emulation of the device that runs in the browser
+-Q: Can it be used to test custom firmware?
+
 https://github.com/sbegueria/fm1-dev-wiki
--...
+-Lots of .md files with relevant content. Especially important seem to be these:
+ https://github.com/sbegueria/fm1-dev-wiki/blob/master/docs/Hardware-Overview.md
+ https://github.com/sbegueria/fm1-dev-wiki/blob/master/docs/Known-Projects.md
+ https://github.com/sbegueria/fm1-dev-wiki/blob/master/docs/AI-Skills.md
 
 https://github.com/aroum/fm1-custom-fw
--...
+-M-VAVE FM1 Resource Hub, Custom Firmwares & MIDI SysEx Protocol Documentation
+-curated directory and reference hub for the M-VAVE FM1 synthesizer gathering community custom
+ firmwares, documentation, tools, MIDI SysEx protocol details
 
 Felucca
 https://github.com/hugelton
@@ -23,13 +32,18 @@ https://github.com/hugelton/Felucca
 -Felucca is a popular firmware that features virtual analog synthesis. (verify!)
 -Hugelton's other repos may also be of interest -> figure out what else is there.
 
+fm1-base
+https://github.com/charlesvestal/fm1-base
+-A base for M-VAVE FM-1 firmware, on felucca-bsp: the platform layer above the hardware 
+
 SLOOP
 https://github.com/isod89/sloop-fm1
 -4-track groovebox with 3 synths and a drum machine. 
 -12 synthesis engines, 153 sounds, 37 drum kits, your own samples
 
+Dinghy
 https://github.com/zvenson/dinghy
--Dinghy is a minimalistic starting point for developing one's own firmware. (verify!)
+-The smallest firmware for the M-VAVE FM-1 to build your own on.
 
 https://github.com/Quixotic7/MvaveFM1Unbricker
 -A recovery tool for the hardware unit to set it back into its original factory state if something 
@@ -41,6 +55,10 @@ SMK-37 Resources
 https://github.com/m-vave/smk37_open
 https://github.com/genkigenki/fm1-to-smk37
 https://github.com/genkigenki/fm1-to-smk37/blob/main/docs/07-develop-for-both.md
+
+----------------------------------------------------------------------------------------------------
+Pocket Amp Resources
+
 
 
 ----------------------------------------------------------------------------------------------------

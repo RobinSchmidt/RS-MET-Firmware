@@ -1,6 +1,15 @@
 In this file, I collect my ideas for firmwares that I may want to create from the M-VAVE FM-1.
 
 ----------------------------------------------------------------------------------------------------
+General considerations
+
+- Over time, we want to build a C library with DSP modules that work in 32 bit fixed point 
+  arithmetic. These modules shall then be used inside the actual synthesis and effect engines. As
+  starting point, we can use the C++ implementations in RAPT but we must aggressively optimize them 
+  with tables, etc.
+  
+
+----------------------------------------------------------------------------------------------------
 Virtual Analog Synthesizer
 
 - Should have a supersaw and maybe also also other "super" waveforms (supersquare, superpulse, 
@@ -57,7 +66,10 @@ Drum Synthesizer
   samples must be baked/hardcoded into the firmware?
   
 - Tweakable parameters should be: pitch, length, decay. The idea is that after "length" seconds, we
-  enter a decay envelope. Maybe let its shape be tweakable, too.
+  enter a decay envelope. Maybe let its shape be tweakable, too. Or maybe the gate should just 
+  remain open until a noteOff is received. On noteOff, we enter a release phase. This way, MIDI note
+  length can be used to turn an open hihat sample into a closed hihat - but just having a very short
+  note that cuts off the sample (with a short release envelope).
   
 - Maybe also allow algorithmic drum synthesis, including my "SweepKicker" algorithm. HiHats could be
   based on (highpassed and enveloped) white noise. Maybe the color of the noise could be modified

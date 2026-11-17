@@ -34,9 +34,10 @@ https://github.com/sbegueria/fm1-dev-wiki
  https://github.com/sbegueria/fm1-dev-wiki/blob/master/docs/Known-Projects.md
  https://github.com/sbegueria/fm1-dev-wiki/blob/master/docs/AI-Skills.md
 
+M-VAVE FM1 Resource Hub
 https://github.com/aroum/fm1-custom-fw
--M-VAVE FM1 Resource Hub, Custom Firmwares & MIDI SysEx Protocol Documentation
--curated directory and reference hub for the M-VAVE FM1 synthesizer gathering community custom
+-Custom Firmwares & MIDI SysEx Protocol Documentation
+-Curated directory and reference hub for the M-VAVE FM1 synthesizer gathering community custom
  firmwares, documentation, tools, MIDI SysEx protocol details
 
 Felucca
@@ -44,6 +45,9 @@ https://github.com/hugelton
 https://github.com/hugelton/Felucca
 -Felucca is a popular firmware that features virtual analog synthesis. (verify!)
 -Hugelton's other repos may also be of interest -> figure out what else is there.
+ https://github.com/hugelton/Felucca-Engines   The DSP engines
+ https://github.com/hugelton/felucca-bsp       The plumbing layer (I think -> verify!)
+ https://github.com/hugelton/Felucca-WebApp    Web based emulator (verify!)
 
 fm1-base
 https://github.com/charlesvestal/fm1-base
@@ -53,6 +57,14 @@ SLOOP
 https://github.com/isod89/sloop-fm1
 -4-track groovebox with 3 synths and a drum machine. 
 -12 synthesis engines, 153 sounds, 37 drum kits, your own samples
+
+Clipper
+https://github.com/isod89/clipper-fm1
+-Dynthesizer with 23 engines and 407 sounds, one instrument (two in MULTI) like the original FM-1.
+-No tracks, no drum machine, no song mode and no built-in samples. 
+-Keeps SLOOP's 12 sound engines, effects, arpeggiator, step sequencer, USB audio and MIDI, and adds 
+ HYBRID: one voice built from three oscillators (featuring supersaw), two filters and a modulation 
+ matrix, with the whole patch editable in the browser.
 
 Dinghy
 https://github.com/zvenson/dinghy
@@ -65,9 +77,18 @@ https://github.com/Quixotic7/MvaveFM1Unbricker
 ----------------------------------------------------------------------------------------------------
 SMK-37 Resources
 
+SMK37 OPEN V01
 https://github.com/m-vave/smk37_open
+-SDK for M-VAVE SMK-37 Pro and SMK-37 Elite
+
+FM-1 to SMK-37 
 https://github.com/genkigenki/fm1-to-smk37
+-A kit to migrate open M-Vave FM-1 firmwares to the M-Vave SMK-37 with a coding agent such as Claude
+ Code, and to develop for both boards from one source.
+
+
 https://github.com/genkigenki/fm1-to-smk37/blob/main/docs/07-develop-for-both.md
+
 
 ----------------------------------------------------------------------------------------------------
 Pocket Amp Resources
